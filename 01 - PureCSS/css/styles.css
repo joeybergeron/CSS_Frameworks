@@ -1,0 +1,21 @@
+.inline {
+	display: inline-block;
+}
+.float-right {
+	float: right;
+}
+.text-right {
+	text-align: right;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h1 {
+	font-weight: 200;
+}
+.pure-menu.pure-menu-horizontal  {
+	width: 100%;
+	background-color: #eee;
+	padding-top: 3em;
+}
