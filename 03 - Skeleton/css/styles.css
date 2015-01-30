@@ -1,105 +1,105 @@
 .container {
-	max-width: 1170px;
+  max-width: 1170px;
 }
 .top-push {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 .text-right {
-	text-align: right;
+  text-align: right;
 }
 .text-muted {
-	color: #777;
+  color: #777;
 }
 .font_8 {
-	font-size: .8em;
+  font-size: .8em;
 }
 .font_9 {
-	font-size: .9em;
+  font-size: .9em;
 }
 .form-inline label,
 .form-inline input {
-	display: inline-block;
+  display: inline-block;
 }
 .list-inline {
-	margin: 0px;
+  margin: 0px;
 }
 .list-inline li {
-	display: inline-block;
-	padding: 0px 5px;
+  display: inline-block;
+  padding: 0px 5px;
 }
 .list-inline i {
-	padding-right: 5px;
+  padding-right: 5px;
 }
 nav {
-	background-color: #eee;
-	padding-top: 3em;
+  background-color: #eee;
+  padding-top: 3em;
 }
 .small-dark-title {
-	background-color: black;
-	color: white;
-	padding: 6px 12px;
-	display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  display: inline-block;
 }
 .no-margin {
-	margin: 0;
+  margin: 0;
 }
 .col-secondary {
-	border: 1px solid #eee;
-	border-top: none;
-	border-bottom: none;
-	padding-left: 20px;
-	padding-right: 20px;	
+  border: 1px solid #eee;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;  
 }
 .bg-grey {
-	background-color: #f5f5f5;
-	padding: 5px 10px 10px;
+  background-color: #f5f5f5;
+  padding: 5px 10px 10px;
 }
 .bg-grey span {
-	display: block;
+  display: block;
 }
 hr.bump {
-	border: none;
+  border: none;
 }
 hr.fat {
-	border-top-width: 10px;
+  border-top-width: 10px;
 }
 .copyright {
-	padding: 20px 0px 40px;
+  padding: 20px 0px 40px;
 }
 .img-responsive {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .video-responsive {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 .embed-responsive {
-	position: relative;
-	display: block;
-	height: 0;
-	padding: 0;
-	overflow: hidden;
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .embed-responsive.embed-responsive-16by9 {
 padding-bottom: 56.25%;
 }
 .embed-responsive iframe {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .media-body p {
-	margin: 0;
-	font-size: .8em;	
+  margin: 0;
+  font-size: .8em;  
 }
 
 
