@@ -3,17 +3,305 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	
-	<title>Bootstrap Framework</title>
+	<title>Bootstrap Framework Mockup</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/boostrap-3.3.2-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 <body>
+	<!-- ========================= CONTAINER ========================= -->
+	<div class="container">
+		<!-- ========================= HEADER ========================= -->
+		<div class="row">
+			<div class="col-md-4">
+				<h1>SiteName</h1>
+			</div>
+			<ul class="col-md-8 list-inline text-right sub-padding">
+				<li><i class="glyphicon glyphicon-envelope">&nbsp;</i><a href="">Newsletter</a></li>
+				<li><i class="glyphicon glyphicon-envelope">&nbsp;</i><a href="">Abonnement RSS</a></li>
+				<li><span> | </span></li>
+				<li><form class="form-inline">
+					<div class="form-group">
+						<label for="email">Recherche</label>
+						<input class="form-control" type="email" id="email" placeholder="Email Address">					
+						<button class="btn btn-default" type="submit">Archives</button>
+					</div>
+				</form></li>
+			</ul>
+		</div>
+		<nav class="row">
+			<div class="col-sm-12">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="">Accueil</a></li>
+					<li><a href="">Actualities</a></li>
+					<li><a href="">En direct des regions</a></li>
+					<li><a href="">Reperes financiers</a></li>
+					<li><a href="">Notre offre</a></li>
+					<li><a href="">De nous a vous</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- ========================= END HEADER ========================= -->
+		<hr class="bump">
+		<div class="row">
+			<!-- ========================= COLUMN 1 ========================= -->
+			<div class="col-sm-5">
+				<article>
+					<h4 class="small-dark-title">A lune</h4>
+					<p class="lead">Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+					<h2>Lorem ipsum et diligat gentris</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					<div class="row">
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-stop">&nbsp;</i>Voir 'l article'
+						</div>
+						<div class="col-sm-8">
+							<ul class="list-inline">
+								<li><i class="glyphicon glyphicon-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+								<li><a href="">lorem,</a></li>
+								<li><a href="">ipsum,</a></li>
+								<li><a href="">diligat</a></li>
+							</ul>
+						</div>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<div class="row">
+						<div class="col-sm-5">
+							<h5 class="small-dark-title">WEBZINE ENCODER</h5>
+						</div>
+						<div class="col-sm-7 10-bump">	
+							<a href="">Question du mois<span class="text-muted"> | publie le 12/12/07</span></a>
+						</div>
+					</div>
+					<h2>Placements des collectivites locals : une loi encore beaucop trop restrictive ?</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					<div class="row">
+						<div class="col-sm-4">
+							Voir 'l article'
+						</div>
+						<div class="col-sm-8">
+							<ul class="list-inline">
+								<li><i class="glyphicon glyphicon-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+								<li><a href="">collectivities,</a></li>
+								<li><a href="">ecodefi</a></li>
+							</ul>
+						</div>
+					</div>					
+				</article>
+				<hr>
+				<article>
+					<p class="lead">Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+					<h2>Etiam lorem et suspira nostres</h2>
+					<img src="http://placehold.it/500x200" class="img-responsive" alt="">
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					<div class="row">
+						<div class="col-sm-4">
+							Voir 'l article'
+						</div>
+						<div class="col-sm-8">
+							<ul class="list-inline">
+								<li><i class="glyphicon glyphicon-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+								<li><a href="">lorem,</a></li>
+								<li><a href="">lorem</a></li>
+							</ul>
+						</div>
+				</article>
+				<hr>
+				<article>
+					<p class="lead">Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+					<h2>Etiam lorem et suspira nostres</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					<div class="row">
+						<div class="col-sm-4">
+							Voir 'l article'
+						</div>
+						<div class="col-sm-8">
+							<ul class="list-inline">
+								<li><i class="glyphicon glyphicon-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+								<li><a href="">lorem,</a></li>
+								<li><a href="">lorem</a></li>
+							</ul>
+						</div>
+				</article>
+			</div>
+			<!-- ========================= END COLUMN 1 ========================= -->
+			<!-- ========================= COLUMN 2 ========================= -->
+			<div class="col-sm-4 col-secondary">
+				<article class="bg-grey">
+					<h4 class="small-dark-title">Interviews</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="http://player.vimeo.com/video/117890578" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+					<h2>Clarie Dupond</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					<div class="row">
+						<div class="col-sm-5">
+							postree le 24/01/06
+						</div>
+						<div class="col-sm-7">
+							<ul class="list-inline">
+								<li><i class="glyphicon glyphicon-sunglasses">&nbsp;</i><a href=""><strong>focus les interviews</strong></a></li>
+							</ul>
+						</div>
+				</article>
+				<hr>
+				<article>
+					<h4 class="small-dark-title">Agenda</h4>
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Lorem ipsum et diligat</h4>
+							<p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Lorem ipsum et diligat</h4>
+							<p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Lorem ipsum et diligat</h4>
+							<p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Lorem ipsum et diligat</h4>
+							<p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+						</div>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<h2>Fil d-info</h2>
+					<h5><a href="">Localtis</a></h5>
+					<strong>Etiam oremet investus</strong>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h5><a href="">Hospemedia</a></h5>
+					<strong>Etiam oremet investus</strong>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</article>
+			</div>
+			<!-- ========================= END COLUMN 2 ========================= -->
+			<!-- ========================= COLUMN 3 ========================= -->
+			<div class="col-sm-3">
+				<aside>
+					<article>
+						<h3>Trier par Expertises</h3>
+						<ul class="icon-list">
+							<li>Finances et fiscalite</li>
+							<li>Investissement et equipments</li>
+							<li>Environement</li>
+							<li>Habitat / urbanisme</li>
+							<li>Sante</li>
+							<li>Social / Services</li>
+							<li>Transport</li>
+						</ul>
+						<hr>
+						<div class="bg-grey">
+							<h4 class="lead">WEBZINE<br><strong>ECODEFI</strong></h4>
+							<p class="text-muted"><span>ENQUETE</span>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex ea commodo consequat.</p>
+							<p class="text-muted"><span>QUESTION DU MOIS</span>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex.</p>
+						</div>
+						<hr class="bump">
+						<div class="bg-grey">
+							<h4 class="lead">WEBZINE<br><strong>ACTIONS COMMUNES</strong></h4>
+							<img src="http://placehold.it/400x200" class="img-responsive">
+							<strong>BILAN CARBONE</strong>
+							<p class="text-muted">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex.</p>
+						</div>
+						<hr class="bump">
+						<div class="bg-grey">
+							<h4><strong>Nouvelle generation internet</strong></h4>
+						</div>
+					</article>
+				</aside>	
+			</div>
+			<!-- ========================= END COLUMN 3 ========================= -->
+		</div>
+		<hr class="fat">
+		<!-- ========================= FOOTER ========================= -->
+		<footer>
+			<div class="col-sm-2">
+				<h4>Rubriques</h4>
+				<ul>
+					<li>Accueli</li>
+					<li>Notre offre</li>
+					<li>De Nous a Vous</li>
+					<li>Sante</li>
+					<li>Social / Services</li>
+					<li>FAQ</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>Expertise</h4>
+				<ul>
+					<li>Accueli</li>
+					<li>Notre offre</li>
+					<li>De Nous a Vous</li>
+					<li>Sante</li>
+					<li>Social / Services</li>
+					<li>FAQ</li>
+					<li>Social / Services</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>Abonnement</h4>
+				<ul>
+					<li>De Nous a Vous</li>
+					<li>Sante</li>
+					<li>Social / Services</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>A propos</h4>
+				<ul>
+					<li>Sante</li>
+					<li>Social / Services</li>
+					<li>FAQ</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h4>Contact</h4>
+				<ul>
+					<li>Accueli</li>
+					<li>Notre offre</li>
+					<li>De Nous a Vous</li>
+				</ul>
+			</div>
+		</footer>
+		<div class="row 10-bump">
+			<div class="col-sm-12 text-right text-muted">
+				<p class="copyright">Copyright Groupe Caisse of Epargne 2007. Tours doritos reserves.</p>
+			</div>
+		</div>
+		<!-- ========================= END FOOTER ========================= -->
+	</div>
+	<!-- ========================= END CONTAINER ========================= -->
 
-
-
-
+	<!-- ============================ SCRIPTS ============================ -->
+	<script type="text/javascript" src="./scripts/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./scripts/app.js"></script>
+	<!-- ============================ END SCRIPTS ============================ -->
 </body>
 </html>

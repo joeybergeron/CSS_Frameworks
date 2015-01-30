@@ -1,0 +1,263 @@
+.container {
+	max-width: 1170px;
+}
+.top-push {
+	padding-top: 15px;
+}
+.text-right {
+	text-align: right;
+}
+.text-muted {
+	color: #777;
+}
+.font_8 {
+	font-size: .8em;
+}
+.font_9 {
+	font-size: .9em;
+}
+.form-inline label,
+.form-inline input {
+	display: inline-block;
+}
+.list-inline {
+	margin: 0px;
+}
+.list-inline li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+.list-inline i {
+	padding-right: 5px;
+}
+nav {
+	background-color: #eee;
+	padding-top: 3em;
+}
+.small-dark-title {
+	background-color: black;
+	color: white;
+	padding: 6px 12px;
+	display: inline-block;
+}
+.no-margin {
+	margin: 0;
+}
+.col-secondary {
+	border: 1px solid #eee;
+	border-top: none;
+	border-bottom: none;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.bg-grey {
+	background-color: #f5f5f5;
+	padding: 5px 10px 10px;
+}
+.bg-grey span {
+	display: block;
+}
+hr.bump {
+	border: none;
+}
+hr.fat {
+	border-top-width: 10px;
+}
+.copyright {
+	padding: 20px 0px 40px;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.embed-responsive {
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.embed-responsive.embed-responsive-16by9 {
+padding-bottom: 56.25%;
+}
+.embed-responsive iframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.media-body p {
+	margin: 0;
+	font-size: .8em;	
+}
+
+
+/* ==================================== TAKEN NAV FROM BROOTSTRAP ==================================== */
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav > li > a > img {
+  max-width: none;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+/* ==================================== TAKEN MEDIA FROM BROOTSTRAP ==================================== */
+.media {
+  margin-top: 15px;
+}
+.media:first-child {
+  margin-top: 0;
+}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.media-body {
+  width: 10000px;
+}
+.media-object {
+  display: block;
+}
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+.media-middle {
+  vertical-align: middle;
+}
+.media-bottom {
+  vertical-align: bottom;
+}
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+

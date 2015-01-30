@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Skeleton Framework Mockups</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,12 +15,14 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,13 +34,287 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
+    <!-- ========================= HEADER ========================= -->
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="four columns">
+        <h1>SiteName</h1>
+      </div>
+      <ul class="eight columns list-inline top-push text-right">
+        <li><i class="fa fa-envelope">&nbsp;</i><a href="">Newsletter</a></li>
+        <li><i class="fa fa-envelope">&nbsp;</i><a href="">Abonnement RSS</a></li>
+        <li><span> | </span></li>
+        <li><form class="form-inline">
+          <label for="email">Recherche</label>
+          <input  type="email" id="email" placeholder="Email Address">
+          <button type="submit">Archives</button>
+        </form></li>
+      </ul>
+    </div>
+    <nav class="row">
+      <div class="twelve columns list-inline">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="">Accueil</a></li>
+          <li><a href="">Actualities</a></li>
+          <li><a href="">En direct des regions</a></li>
+          <li><a href="">Reperes financiers</a></li>
+          <li><a href="">Notre offre</a></li>
+          <li><a href="">De nous a vous</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ========================= END HEADER ========================= -->
+    <hr class="bump">
+    <div class="row">
+      <!-- ========================= COLUMN 1 ========================= -->
+      <div class="five columns">
+        <article>
+          <h6 class="small-dark-title">A lune</h6>
+          <p>Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+          <h4>Lorem ipsum et diligat gentris</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <div class="row">
+            <div class="four columns">
+              <i class="fa fa-stop">&nbsp;</i>Voir 'l article'
+            </div>
+            <div class="eight columns">
+              <ul class="list-inline">
+                <li><i class="fa fa-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+                <li><a href="">lorem,</a></li>
+                <li><a href="">ipsum,</a></li>
+                <li><a href="">diligat</a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <div class="row">
+            <div class="five columns">
+              <h6 class="small-dark-title">WEBZINE ENCODER</h6>
+            </div>
+            <div class="seven columns font_9">  
+              <a href="">Question du mois<span class="text-muted"> | publie le 12/12/07</span></a>
+            </div>
+          </div>
+          <h4>Placements des collectivites locals : une loi encore beaucop trop restrictive ?</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <div class="row">
+            <div class="four columns">
+              Voir 'l article'
+            </div>
+            <div class="eight columns">
+              <ul class="list-inline">
+                <li><i class="fa fa-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+                <li><a href="">collectivities,</a></li>
+                <li><a href="">ecodefi</a></li>
+              </ul>
+            </div>
+          </div>          
+        </article>
+        <hr>
+        <article>
+          <p>Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+          <h4>Etiam lorem et suspira nostres</h4>
+          <img src="http://placehold.it/500x200" class="img-responsive" alt="">
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <div class="row">
+            <div class="four columns">
+              Voir 'l article'
+            </div>
+            <div class="eight columns">
+              <ul class="list-inline">
+                <li><i class="fa fa-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+                <li><a href="">lorem,</a></li>
+                <li><a href="">lorem</a></li>
+              </ul>
+            </div>
+        </article>
+        <hr>
+        <article>
+          <p>Surtitre <span class="text-muted"> | publie le 12/12/07</span></p>
+          <h4>Etiam lorem et suspira nostres</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <div class="row">
+            <div class="four columns">
+              Voir 'l article'
+            </div>
+            <div class="eight columns">
+              <ul class="list-inline">
+                <li><i class="fa fa-tags text-muted">&nbsp;</i><strong>Tags</strong> :</li>
+                <li><a href="">lorem,</a></li>
+                <li><a href="">lorem</a></li>
+              </ul>
+            </div>
+        </article>
+      </div>
+      <!-- ========================= END COLUMN 1 ========================= -->
+      <!-- ========================= COLUMN 2 ========================= -->
+      <div class="four columns col-secondary">
+        <article class="bg-grey">
+          <h6 class="small-dark-title">Interviews</h6>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="http://player.vimeo.com/video/117890578" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <h4>Clarie Dupond</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <div class="row">
+            <div class="five columns font_8">
+              postree le 24/01/06
+            </div>
+            <div class="seven columns font_9">
+              <ul class="list-inline">
+                <li><i class="fa fa-beer">&nbsp;</i><a href=""><strong>focus les interviews</strong></a></li>
+              </ul>
+            </div>
+        </article>
+        <hr>
+        <article>
+          <h6 class="small-dark-title">Agenda</h6>
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+            </div>
+            <div class="media-body">
+              <h6 class="media-heading no-margin"><strong>Lorem ipsum et diligat</strong></h6>
+              <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+            </div>
+            <div class="media-body">
+              <h6 class="media-heading no-margin"><strong>Lorem ipsum et diligat</strong></h6>
+              <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+            </div>
+            <div class="media-body">
+              <h6 class="media-heading no-margin"><strong>Lorem ipsum et diligat</strong></h6>
+              <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img src="http://placehold.it/60x60" class="media-object"></a>
+            </div>
+            <div class="media-body">
+              <h6 class="media-heading no-margin"><strong>Lorem ipsum et diligat</strong></h6>
+              <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            </div>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <h4>Fil d-info</h4>
+          <h6><a href="">Localtis</a></h6>
+          <strong>Etiam oremet investus</strong>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h6><a href="">Hospemedia</a></h6>
+          <strong>Etiam oremet investus</strong>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+      </div>
+      <!-- ========================= END COLUMN 2 ========================= -->
+      <!-- ========================= COLUMN 3 ========================= -->
+      <div class="three columns">
+        <aside>
+          <article>
+            <h4>Trier par Expertises</h4>
+            <ul class="icon-list">
+              <li>Finances et fiscalite</li>
+              <li>Investissement et equipments</li>
+              <li>Environement</li>
+              <li>Habitat / urbanisme</li>
+              <li>Sante</li>
+              <li>Social / Services</li>
+              <li>Transport</li>
+            </ul>
+            <hr>
+            <div class="bg-grey">
+              <h5>WEBZINE<br><strong>ECODEFI</strong></h5>
+              <p class="text-muted"><span>ENQUETE</span>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex ea commodo consequat.</p>
+              <p class="text-muted"><span>QUESTION DU MOIS</span>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex.</p>
+            </div>
+            <hr class="bump">
+            <div class="bg-grey">
+              <h5>WEBZINE<br><strong>ACTIONS COMMUNES</strong></h5>
+              <img src="http://placehold.it/400x200" class="img-responsive">
+              <strong>BILAN CARBONE</strong>
+              <p class="text-muted">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aliquip ex.</p>
+            </div>
+            <hr class="bump">
+            <div class="bg-grey">
+              <h5><strong>Nouvelle generation internet</strong></h5>
+            </div>
+          </article>
+        </aside>  
+      </div>
+      <!-- ========================= END COLUMN 3 ========================= -->
+    </div>
+    <hr class="fat">
+    <!-- ========================= FOOTER ========================= -->
+    <footer>
+      <div class="two columns">
+        <h5>Rubriques</h5>
+        <ul>
+          <li>Accueli</li>
+          <li>Notre offre</li>
+          <li>De Nous a Vous</li>
+          <li>Sante</li>
+          <li>Social / Services</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="two columns">
+        <h5>Expertise</h5>
+        <ul>
+          <li>Accueli</li>
+          <li>Notre offre</li>
+          <li>De Nous a Vous</li>
+          <li>Sante</li>
+          <li>Social / Services</li>
+          <li>FAQ</li>
+          <li>Social / Services</li>
+        </ul>
+      </div>
+      <div class="two columns">
+        <h5>Abonnement</h5>
+        <ul>
+          <li>De Nous a Vous</li>
+          <li>Sante</li>
+          <li>Social / Services</li>
+        </ul>
+      </div>
+      <div class="two columns">
+        <h5>A propos</h5>
+        <ul>
+          <li>Sante</li>
+          <li>Social / Services</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="two columns">
+        <h5>Contact</h5>
+        <ul>
+          <li>Accueli</li>
+          <li>Notre offre</li>
+          <li>De Nous a Vous</li>
+        </ul>
+      </div>
+    </footer>
+    <div class="row 10-bump">
+      <div class="twelve columns text-right text-muted">
+        <p class="copyright">Copyright Groupe Caisse of Epargne 2007. Tours doritos reserves.</p>
       </div>
     </div>
+    <!-- ========================= END FOOTER ========================= -->
   </div>
+
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
